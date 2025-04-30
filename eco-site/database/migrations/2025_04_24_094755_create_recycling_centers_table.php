@@ -13,6 +13,13 @@ return new class extends Migration
     {
         Schema::create('recycling_centers', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
+            $table->string('address');
+            $table->decimal('latitude', 10, 7);
+            $table->decimal('longitude', 10, 7);
+            $table->text('opening_hours');
+            $table->text('accepted_categories');
+            $table->text('description')->nullable();
             $table->timestamps();
         });
     }

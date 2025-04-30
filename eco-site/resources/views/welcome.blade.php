@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Echofy - Environmental Sustainability Services</title>
+    <title>Eco_responsive</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <style>
         :root {
@@ -137,7 +137,10 @@
 
         /* Hero Section */
         .hero {
-            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/api/placeholder/1500/800') no-repeat center center/cover;
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/etudiants-ramassent-ordures-dans-parc_274689-50763.jpg) no-repeat center/cover;
+            background-size: cover;         /* L'image couvre tout l'écran */
+            background-position: center;    /* L'image est centrée */
+            background-repeat: no-repeat;
             height: 100vh;
             display: flex;
             flex-direction: column;
@@ -596,20 +599,21 @@
     <header>
         <div class="container header-container">
             <a href="#" class="logo">
+                <span><span style="color: rgba(0, 100, 0, 1); font-weight: bold; font-size: 30px;">Eco</span> Responsive</span>
                 <i class="fas fa-leaf"></i>
-                Echofy
+                
             </a>
             <nav>
                 <ul class="nav-menu">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Pages</a></li>
-                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">Eco Actus</a></li>
+                    <li><a href="#">Mon Guide Eco</a></li>
+                    <li><a href="#">Education</a></li>
+                    <li><a href="#">A propos</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
-            <a href="#" class="btn btn-primary">Get A Quote</a>
+            <a href="#" class="btn btn-primary">S'inscrire</a>
             <div class="hamburger">
                 <i class="fas fa-bars"></i>
             </div>
@@ -617,12 +621,14 @@
     </header>
 
     <!-- Hero Section -->
+
     <section class="hero">
-        <h1>Be Safe Controls Environment</h1>
-        <p>Professional and experienced organization that provides safe environment while respecting the natural balance.</p>
+       
+        <h1>Apprenez, Agissez, Changez Le Monde!</h1>
+        <p>"Apprenez les gestes écoresponsables et l’importance du recyclage pour préserver notre planète. Informez-vous, adoptez de nouvelles habitudes et réduisez votre impact environnemental dès aujourd’hui !"</p>
         <div class="hero-buttons">
-            <a href="#" class="btn btn-primary">Get Started</a>
-            <a href="#" class="btn btn-outline">Read More</a>
+            <a href="#" class="btn btn-primary">Commencer Mon Parcours</a>
+            <a href="#" class="btn btn-outline">En Savoir plus</a>
         </div>
     </section>
 
@@ -631,23 +637,23 @@
         <div class="container categories-container">
             <div class="category">
                 <i class="fas fa-recycle"></i>
-                Ocean-Recycling
+                Recyclage
             </div>
             <div class="category">
                 <i class="fas fa-tree"></i>
-                Environmental
+                Environnement
             </div>
             <div class="category">
                 <i class="fas fa-solar-panel"></i>
-                Renewable-Energy
+                Solution
             </div>
             <div class="category">
                 <i class="fas fa-water"></i>
-                Ocean-Recycling
+                Education
             </div>
             <div class="category">
                 <i class="fas fa-leaf"></i>
-                Environmental
+                Ecologie
             </div>
         </div>
     </section>
@@ -659,7 +665,7 @@
                 <img src="/api/placeholder/600/500" alt="Environmental Sustainable">
             </div>
             <div class="features-text">
-                <h2>Environmental Sustainable Forever Green Future</h2>
+                <h2>Sensibiliser, informer et accompagner chacun vers un mode de vie plus respectueux de l’environnement.</h2>
                 <div class="feature-item">
                     <div class="feature-icon">
                         <i class="fas fa-money-bill-wave"></i>
