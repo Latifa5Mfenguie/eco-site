@@ -606,7 +606,7 @@
             <nav>
                 <ul class="nav-menu">
                     <li><a href="#">Accueil</a></li>
-                    <li><a href="#">Eco Actus</a></li>
+                    <li><a href="/actu">Eco Actus</a></li>
                     <li><a href="#">Mon Guide Eco</a></li>
                     <li><a href="#">Education</a></li>
                     <li><a href="#">A propos</a></li>
@@ -617,8 +617,7 @@
             <div class="hamburger">
                 <i class="fas fa-bars"></i>
             </div>
-        </div>
-    </header>
+s    </header>
 
     <!-- Hero Section -->
 
