@@ -607,10 +607,10 @@
                 <ul class="nav-menu">
                     <li><a href="#">Accueil</a></li>
                     <li><a href="/actu">Eco Actus</a></li>
-                    <li><a href="#">Mon Guide Eco</a></li>
-                    <li><a href="#">Education</a></li>
-                    <li><a href="#">A propos</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="/guide">Mon Guide Eco</a></li>
+                    <li><a href="/educ">Education</a></li>
+                    <li><a href="/about">A propos</a></li>
+                    <li><a href="/contact">Contact</a></li>
                 </ul>
             </nav>
             <a href="#" class="btn btn-primary">S'inscrire</a>
@@ -700,11 +700,12 @@ s    </header>
                         <div class="service-icon">
                             <i class="fas fa-recycle"></i>
                         </div>
-                        <h3>Daily Recycling</h3>
-                        <p>Efficient and responsible daily recycling services for homes and businesses.</p>
+                        <h3>📢 Actualités & Sensibilisation</h3>
+                        <p>Suivez les dernières actualités écologiques locales et mondiales.Découvrez des conseils pratiques et des gestes simples à adopter au quotidien.
+</p>
                     </div>
                     <div class="service-img">
-                        <img src="/api/placeholder/400/300" alt="Daily Recycling">
+                        <img src="/images/ff4b9926f67888f14317a0e86eac2db7.jpg" alt="Daily Recycling">
                     </div>
                 </div>
                 <div class="service-card">
@@ -712,11 +713,12 @@ s    </header>
                         <div class="service-icon">
                             <i class="fas fa-leaf"></i>
                         </div>
-                        <h3>Safe Environment</h3>
-                        <p>Creating and maintaining safe environmental conditions for sustainable living.</p>
+                        <h3>📚 Apprentissage interactif</h3>
+                        <p>Accédez à des guides éducatifs et des fiches pratiques sur le recyclage et l’écologie.Testez vos connaissances avec des quiz et challenges écoresponsables.
+.</p>
                     </div>
                     <div class="service-img">
-                        <img src="/api/placeholder/400/300" alt="Safe Environment">
+                        <img src="/images/images (1).jpeg" alt="Safe Environment">
                     </div>
                 </div>
                 <div class="service-card">
@@ -724,11 +726,12 @@ s    </header>
                         <div class="service-icon">
                             <i class="fas fa-water"></i>
                         </div>
-                        <h3>Cleaning Ocean</h3>
-                        <p>Dedicated projects to clean and protect our oceans from pollution and waste.</p>
+                        <h3>♻️ Gestion des déchets & recyclage</h3>
+                        <p>Trouvez rapidement comment trier et recycler vos déchets.Localisez les centres de tri et de recyclage près de chez vous.
+</p>
                     </div>
                     <div class="service-img">
-                        <img src="/api/placeholder/400/300" alt="Cleaning Ocean">
+                        <img src="/images/images.jpeg" alt="Cleaning Ocean">
                     </div>
                 </div>
             </div>
@@ -785,7 +788,7 @@ s    </header>
         <div class="container">
             <div class="footer-container">
                 <div class="footer-col">
-                    <h3>About Us</h3>
+                    <h3>A propos de nous</h3>
                     <p>Echofy is dedicated to providing environmental solutions that ensure a sustainable future for our planet while promoting economic growth.</p>
                     <div class="social-links">
                         <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -795,14 +798,15 @@ s    </header>
                     </div>
                 </div>
                 <div class="footer-col">
-                    <h3>Quick Links</h3>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Projects</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
+                    <h3>Lien Rapide</h3>
+                    <ul class="nav-menu">
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="/actu">Eco Actus</a></li>
+                    <li><a href="/guide">Mon Guide Eco</a></li>
+                    <li><a href="/educ">Education</a></li>
+                    <li><a href="/about">A propos</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
                 </div>
                 <div class="footer-col">
                     <h3>Services</h3>
@@ -814,16 +818,16 @@ s    </header>
                     </ul>
                 </div>
                 <div class="footer-col">
-                    <h3>Contact Us</h3>
+                    <h3>Contactez Nous</h3>
                     <ul>
                         <li><i class="fas fa-map-marker-alt"></i> 123 Green St, Eco City</li>
-                        <li><i class="fas fa-phone"></i> +1 234 567 8901</li>
-                        <li><i class="fas fa-envelope"></i> info@echofy.com</li>
+                        <li><i class="fas fa-phone"></i> +237 659 00 00 90</li>
+                        <li><i class="fas fa-envelope"></i> info@ecoresponsive.com</li>
                     </ul>
                 </div>
             </div>
             <div class="copyright">
-                <p>&copy; 2025 Echofy. All Rights Reserved.</p>
+                <p>&copy; 2025 Eco responsive. Tout droits reserver.</p>
             </div>
         </div>
     </footer>
