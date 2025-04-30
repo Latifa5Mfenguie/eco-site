@@ -137,7 +137,7 @@
 
         /* Hero Section */
         .hero {
-            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/etudiants-ramassent-ordures-dans-parc_274689-50763.jpg) no-repeat center/cover;
+            background: linear-gradient(rgba(0, 0,0,0.5), rgba(0, 0, 0, 0.5)), url(images/j.jpg) no-repeat center/cover;
             background-size: cover;         /* L'image couvre tout l'écran */
             background-position: center;    /* L'image est centrée */
             background-repeat: no-repeat;
@@ -269,7 +269,7 @@
             background-color: white;
             border-radius: 8px;
             overflow: hidden;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            box-shadow: 0 5px 15px rgba(0, 0, 0,9, 0.05);
             transition: transform 0.3s ease;
         }
 
@@ -599,7 +599,7 @@
     <header>
         <div class="container header-container">
             <a href="#" class="logo">
-                <span><span style="color: rgba(0, 100, 0, 1); font-weight: bold; font-size: 30px;">Eco</span> Responsive</span>
+                <span><span style="color: rgba(40, 150, 50, 50); font-weight: bold; font-size: 40px">Eco</span> Responsive</span>
                 <i class="fas fa-leaf"></i>
                 
             </a>
@@ -661,7 +661,7 @@ s    </header>
     <section class="features">
         <div class="container features-container">
             <div class="feature-img">
-                <img src="/api/placeholder/600/500" alt="Environmental Sustainable">
+                <img src="/images/etudiants-ramassent-ordures-dans-parc_274689-50763.jpg" alt="Environmental Sustainable">
             </div>
             <div class="features-text">
                 <h2>Sensibiliser, informer et accompagner chacun vers un mode de vie plus respectueux de l’environnement.</h2>
